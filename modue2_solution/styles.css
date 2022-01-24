@@ -1,0 +1,52 @@
+@media (min-width: 992px)
+{
+    .col-lg-1
+    {
+        float: left;
+        
+        width:33.33%;
+    }
+}
+@media(min-width:768px) and (max-width:991px)
+{
+    .col-md-1
+    {
+        float: left;
+        
+        width:50%;
+    }
+}
+@media(max-width:767px)
+{
+    .col-sm-1
+    {
+        float: left;
+        
+        width:100%;
+    }
+}
+@media(min-width:767px) and (max-width:991px)
+{
+    .col-sp-1
+    {
+        float: left;
+        width:100%;
+    }
+}
+.row
+{
+    width:100%;
+}
+p
+{
+    height: 150px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid black;
+    background-color: silver;
+}
+body
+{
+    background-color: brown;
+}
